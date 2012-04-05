@@ -12,7 +12,7 @@
 		9EE48E1B130DC7EF005491E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */; };
 		9EE48E21130DC7EF005491E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */; };
 		9EE48E24130DC7EF005491E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E23130DC7EF005491E1 /* main.m */; };
-		9EE48E27130DC7EF005491E1 /* HypnosisterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E26130DC7EF005491E1 /* HypnosisterAppDelegate.m */; };
+		9EE48E27130DC7EF005491E1 /* PockethotlineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */; };
 		9EE48E2A130DC7EF005491E1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE48E28130DC7EF005491E1 /* MainWindow.xib */; };
 		9EE48E32130DC900005491E1 /* PockethotlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E31130DC900005491E1 /* PockethotlineView.m */; };
 /* End PBXBuildFile section */
@@ -26,8 +26,8 @@
 		9EE48E20130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EE48E22130DC7EF005491E1 /* Hypnosister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Prefix.pch"; sourceTree = "<group>"; };
 		9EE48E23130DC7EF005491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EE48E25130DC7EF005491E1 /* HypnosisterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HypnosisterAppDelegate.h; sourceTree = "<group>"; };
-		9EE48E26130DC7EF005491E1 /* HypnosisterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterAppDelegate.m; sourceTree = "<group>"; };
+		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
+		9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
 		9EE48E29130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		9EE48E30130DC900005491E1 /* PockethotlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PockethotlineView.h; sourceTree = "<group>"; };
 		9EE48E31130DC900005491E1 /* PockethotlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PockethotlineView.m; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		9EE48E1C130DC7EF005491E1 /* Pockethotline */ = {
 			isa = PBXGroup;
 			children = (
-				9EE48E25130DC7EF005491E1 /* HypnosisterAppDelegate.h */,
-				9EE48E26130DC7EF005491E1 /* HypnosisterAppDelegate.m */,
+				9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */,
+				9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */,
 				9EE48E30130DC900005491E1 /* PockethotlineView.h */,
 				9EE48E31130DC900005491E1 /* PockethotlineView.m */,
 				9EE48E28130DC7EF005491E1 /* MainWindow.xib */,
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE48E24130DC7EF005491E1 /* main.m in Sources */,
-				9EE48E27130DC7EF005491E1 /* HypnosisterAppDelegate.m in Sources */,
+				9EE48E27130DC7EF005491E1 /* PockethotlineAppDelegate.m in Sources */,
 				9EE48E32130DC900005491E1 /* PockethotlineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

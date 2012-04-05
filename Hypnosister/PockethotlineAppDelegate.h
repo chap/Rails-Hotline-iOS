@@ -3,7 +3,7 @@
 // This is a forward declaration
 @class PockethotlineView;
 
-@interface HypnosisterAppDelegate : NSObject
+@interface PockethotlineAppDelegate : NSObject
     <UIApplicationDelegate, UIScrollViewDelegate> {
     PockethotlineView *view;
 }

@@ -1,7 +1,7 @@
-#import "HypnosisterAppDelegate.h"
+#import "PockethotlineAppDelegate.h"
 #import "PockethotlineView.h"
 
-@implementation HypnosisterAppDelegate
+@implementation PockethotlineAppDelegate
 
 @synthesize window=_window;
 
@@ -52,7 +52,7 @@
 }
 
 // A dealloc method that will never get called because 
-// HypnosisterAppDelegate will exist for the life of the application
+// PockethotlineAppDelegate will exist for the life of the application
 - (void)dealloc
 {
     [view release];
