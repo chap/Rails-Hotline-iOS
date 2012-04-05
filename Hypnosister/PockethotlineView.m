@@ -9,9 +9,9 @@
 
 
 - (void)callButtonClicked:(UIGestureRecognizer *)recognizer {
-  NSString *phoneNumber = @"877-817-4190";
+  NSString *phoneNumber = @"8778174190";
   NSString *telString = [NSString stringWithFormat:@"tel://%@", phoneNumber];
-  NSLog(@"%@", telString);
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:telString]];
 }
 
 
@@ -20,7 +20,7 @@
   
   // Start Button
   self.callButton = [UIButton buttonWithType:UIButtonTypeCustom];  
-  self.callButton.frame = CGRectMake(60, 100, 195, 100); // position in the parent view and set the size of the button
+  self.callButton.frame = CGRectMake(62, 100, 195, 100); // position in the parent view and set the size of the button
   [self.callButton setTitle:@"CALL US!" forState:UIControlStateNormal];
 
   //Button Styling
@@ -28,7 +28,8 @@
   
   UIFont *buttonFont = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:36.0];  
   [self.callButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-  
+  [self.callButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
+
   self.callButton.backgroundColor = buttonBackgroundColor;
   self.callButton.layer.borderColor = buttonBackgroundColor.CGColor;
   self.callButton.layer.borderWidth = 0.5f;
@@ -36,8 +37,10 @@
   self.callButton.font = buttonFont;
   [self.callButton addTarget:self action:@selector(callButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
   
-  
+  self.callButton.titleLabel.hidden=NO;
   [self addSubview:self.callButton];
+  
+  
   
   [self.callButton setNeedsDisplay];
   
