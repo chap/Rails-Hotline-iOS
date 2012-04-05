@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A710E5152E3278005CDFA6 /* railshotline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710E4152E3278005CDFA6 /* railshotline.jpg */; };
+		13A710F5152E3F68005CDFA6 /* railshotlineIphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */; };
+		13A710F7152E3FF4005CDFA6 /* railshotlineIphone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */; };
 		9EE48E17130DC7EF005491E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E16130DC7EF005491E1 /* UIKit.framework */; };
 		9EE48E19130DC7EF005491E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E18130DC7EF005491E1 /* Foundation.framework */; };
 		9EE48E1B130DC7EF005491E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A710E4152E3278005CDFA6 /* railshotline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotline.jpg; sourceTree = "<group>"; };
+		13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotlineIphone.jpg; sourceTree = "<group>"; };
+		13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotlineIphone2.jpg; sourceTree = "<group>"; };
 		9EE48E12130DC7EF005491E1 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE48E16130DC7EF005491E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EE48E18130DC7EF005491E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,7 +32,7 @@
 		9EE48E20130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EE48E22130DC7EF005491E1 /* Hypnosister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Prefix.pch"; sourceTree = "<group>"; };
 		9EE48E23130DC7EF005491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
+		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
 		9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
 		9EE48E29130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		9EE48E30130DC900005491E1 /* PockethotlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PockethotlineView.h; sourceTree = "<group>"; };
@@ -47,9 +53,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A710E3152E3278005CDFA6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */,
+				13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */,
+				13A710E4152E3278005CDFA6 /* railshotline.jpg */,
+			);
+			name = assets;
+			path = Hypnosister/assets;
+			sourceTree = "<group>";
+		};
 		9EE48E07130DC7EF005491E1 = {
 			isa = PBXGroup;
 			children = (
+				13A710E3152E3278005CDFA6 /* assets */,
 				9EE48E1C130DC7EF005491E1 /* Pockethotline */,
 				9EE48E15130DC7EF005491E1 /* Frameworks */,
 				9EE48E13130DC7EF005491E1 /* Products */,
@@ -148,6 +166,9 @@
 			files = (
 				9EE48E21130DC7EF005491E1 /* InfoPlist.strings in Resources */,
 				9EE48E2A130DC7EF005491E1 /* MainWindow.xib in Resources */,
+				13A710E5152E3278005CDFA6 /* railshotline.jpg in Resources */,
+				13A710F5152E3F68005CDFA6 /* railshotlineIphone.jpg in Resources */,
+				13A710F7152E3FF4005CDFA6 /* railshotlineIphone2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

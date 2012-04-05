@@ -6,4 +6,7 @@
     
 }
 
+@property (nonatomic, assign)  UIButton *callButton;
+
+
 @end

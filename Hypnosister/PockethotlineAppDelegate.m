@@ -12,7 +12,12 @@
     CGRect wholeWindow = [[self window] bounds];
   
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:wholeWindow];
+
   
+    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"railshotlineIphone2.jpg"]];
+
+    scrollView.backgroundColor = background;
+
   
     [[self window] addSubview:scrollView];
     

@@ -1,10 +1,51 @@
+#import <QuartzCore/QuartzCore.h>
+
 #import "PockethotlineView.h"
 
 
 @implementation PockethotlineView
 
+@synthesize callButton = _callButton;
+
+
+- (void)callButtonClicked:(UIGestureRecognizer *)recognizer {
+  NSString *phoneNumber = @"877-817-4190";
+  NSString *telString = [NSString stringWithFormat:@"tel://%@", phoneNumber];
+  NSLog(@"%@", telString);
+}
+
+
 - (void)drawRect:(CGRect)rect
 {
+  
+  // Start Button
+  self.callButton = [UIButton buttonWithType:UIButtonTypeCustom];  
+  self.callButton.frame = CGRectMake(60, 100, 195, 100); // position in the parent view and set the size of the button
+  [self.callButton setTitle:@"CALL US!" forState:UIControlStateNormal];
+
+  //Button Styling
+  UIColor *buttonBackgroundColor = [UIColor redColor];
+  
+  UIFont *buttonFont = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:36.0];  
+  [self.callButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+  
+  self.callButton.backgroundColor = buttonBackgroundColor;
+  self.callButton.layer.borderColor = buttonBackgroundColor.CGColor;
+  self.callButton.layer.borderWidth = 0.5f;
+  self.callButton.layer.cornerRadius = 10.0f;
+  self.callButton.font = buttonFont;
+  [self.callButton addTarget:self action:@selector(callButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+  
+  
+  [self addSubview:self.callButton];
+  
+  [self.callButton setNeedsDisplay];
+  
+//  UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"/Users/schneems/Documents/projects/objective_c/pockethotline/Hypnosister/assets/railshotline.jpg"]];
+  
+  
+  
+  
   // What rectangle am I filling? 
   CGRect bounds = [self bounds];
   
@@ -13,33 +54,8 @@
   center.x = bounds.origin.x + bounds.size.width / 2.0;
   center.y = bounds.origin.x + bounds.size.height / 2.0;
   
-  // From the center how far out to a corner?
-
-  
-  // Create a string
-  NSString *text = @"You are getting sleepy.";
-  
-  // Get a font to draw it in
-  UIFont *font = [UIFont boldSystemFontOfSize:28];
-  
-  // Where am I going to draw it?
-  CGRect textRect;
-  textRect.size = [text sizeWithFont:font];
-  textRect.origin.x = center.x - textRect.size.width / 2.0;
-  textRect.origin.y = center.y - textRect.size.height / 2.0;
-  
-  // Set the fill color of the current context to black
-  [[UIColor blackColor] setFill];
-  
-  // Set the shadow to be offset 4 points right, 3 points down,
-  // dark gray and with a blur raidus of 2 points
-  CGSize offset = CGSizeMake(4,3);
-  CGColorRef color = [[UIColor darkGrayColor] CGColor];
-//  CGContextSetShadowWithColor(context, offset, 2.0, color);
-  
-  // Draw the string
-  [text drawInRect:textRect withFont:font];
   
 }
+
 
 @end
