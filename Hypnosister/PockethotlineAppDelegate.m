@@ -14,7 +14,7 @@
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:wholeWindow];
 
   
-    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"railshotlineIphone2.jpg"]];
+    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"railshotlinebg.png"]];
 
     scrollView.backgroundColor = background;
 

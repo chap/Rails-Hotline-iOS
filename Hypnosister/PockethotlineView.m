@@ -44,7 +44,6 @@
   
   [self.callButton setNeedsDisplay];
   
-//  UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"/Users/schneems/Documents/projects/objective_c/pockethotline/Hypnosister/assets/railshotline.jpg"]];
   
   
   
