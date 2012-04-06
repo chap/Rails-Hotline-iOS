@@ -15,8 +15,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
                BuildableName = "Hypnosister.app"
-               BlueprintName = "Hypnosister"
-               ReferencedContainer = "container:Hypnosister.xcodeproj">
+               BlueprintName = "Rails Hotline"
+               ReferencedContainer = "container:Rails Hotline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,8 +33,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
             BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintName = "Rails Hotline"
+            ReferencedContainer = "container:Rails Hotline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -44,6 +44,7 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
@@ -51,8 +52,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
             BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintName = "Rails Hotline"
+            ReferencedContainer = "container:Rails Hotline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,8 +70,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
             BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintName = "Rails Hotline"
+            ReferencedContainer = "container:Rails Hotline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

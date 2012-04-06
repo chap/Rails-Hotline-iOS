@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1328B9FB152E4EA300AFEE6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FA152E4EA300AFEE6A /* Default.png */; };
-		13A710E5152E3278005CDFA6 /* railshotline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710E4152E3278005CDFA6 /* railshotline.jpg */; };
-		13A710F5152E3F68005CDFA6 /* railshotlineIphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */; };
-		13A710F7152E3FF4005CDFA6 /* railshotlineIphone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */; };
+		1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FC152E932000AFEE6A /* railshotlinebg.png */; };
+		1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */; };
+		1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA00152F41BE00AFEE6A /* Default@2x.png */; };
+		1328BA04152F41BE00AFEE6A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA01152F41BE00AFEE6A /* icon.png */; };
+		1328BA05152F41BE00AFEE6A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA02152F41BE00AFEE6A /* icon@2x.png */; };
 		9EE48E17130DC7EF005491E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E16130DC7EF005491E1 /* UIKit.framework */; };
 		9EE48E19130DC7EF005491E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E18130DC7EF005491E1 /* Foundation.framework */; };
 		9EE48E1B130DC7EF005491E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */; };
@@ -23,16 +25,18 @@
 
 /* Begin PBXFileReference section */
 		1328B9FA152E4EA300AFEE6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		13A710E4152E3278005CDFA6 /* railshotline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotline.jpg; sourceTree = "<group>"; };
-		13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotlineIphone.jpg; sourceTree = "<group>"; };
-		13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = railshotlineIphone2.jpg; sourceTree = "<group>"; };
-		9EE48E12130DC7EF005491E1 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1328B9FC152E932000AFEE6A /* railshotlinebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = railshotlinebg.png; sourceTree = "<group>"; };
+		1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "railshotlinebg@2x.png"; sourceTree = "<group>"; };
+		1328BA00152F41BE00AFEE6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1328BA01152F41BE00AFEE6A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1328BA02152F41BE00AFEE6A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9EE48E12130DC7EF005491E1 /* Rails Hotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rails Hotline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE48E16130DC7EF005491E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EE48E18130DC7EF005491E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9EE48E1E130DC7EF005491E1 /* Hypnosister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypnosister-Info.plist"; sourceTree = "<group>"; };
+		9EE48E1E130DC7EF005491E1 /* Rails Hotline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rails Hotline-Info.plist"; sourceTree = "<group>"; };
 		9EE48E20130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9EE48E22130DC7EF005491E1 /* Hypnosister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Prefix.pch"; sourceTree = "<group>"; };
+		9EE48E22130DC7EF005491E1 /* Rails Hotline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rails Hotline-Prefix.pch"; sourceTree = "<group>"; };
 		9EE48E23130DC7EF005491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
 		9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
@@ -58,10 +62,12 @@
 		13A710E3152E3278005CDFA6 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				1328BA00152F41BE00AFEE6A /* Default@2x.png */,
+				1328BA01152F41BE00AFEE6A /* icon.png */,
+				1328BA02152F41BE00AFEE6A /* icon@2x.png */,
+				1328B9FC152E932000AFEE6A /* railshotlinebg.png */,
+				1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */,
 				1328B9FA152E4EA300AFEE6A /* Default.png */,
-				13A710F6152E3FF4005CDFA6 /* railshotlineIphone2.jpg */,
-				13A710F4152E3F68005CDFA6 /* railshotlineIphone.jpg */,
-				13A710E4152E3278005CDFA6 /* railshotline.jpg */,
 			);
 			name = assets;
 			path = Hypnosister/assets;
@@ -80,7 +86,7 @@
 		9EE48E13130DC7EF005491E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EE48E12130DC7EF005491E1 /* Hypnosister.app */,
+				9EE48E12130DC7EF005491E1 /* Rails Hotline.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +118,9 @@
 		9EE48E1D130DC7EF005491E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EE48E1E130DC7EF005491E1 /* Hypnosister-Info.plist */,
+				9EE48E1E130DC7EF005491E1 /* Rails Hotline-Info.plist */,
 				9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */,
-				9EE48E22130DC7EF005491E1 /* Hypnosister-Prefix.pch */,
+				9EE48E22130DC7EF005491E1 /* Rails Hotline-Prefix.pch */,
 				9EE48E23130DC7EF005491E1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -123,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EE48E11130DC7EF005491E1 /* Hypnosister */ = {
+		9EE48E11130DC7EF005491E1 /* Rails Hotline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Hypnosister" */;
+			buildConfigurationList = 9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Rails Hotline" */;
 			buildPhases = (
 				9EE48E0E130DC7EF005491E1 /* Sources */,
 				9EE48E0F130DC7EF005491E1 /* Frameworks */,
@@ -135,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = Hypnosister;
+			name = "Rails Hotline";
 			productName = Hypnosister;
-			productReference = 9EE48E12130DC7EF005491E1 /* Hypnosister.app */;
+			productReference = 9EE48E12130DC7EF005491E1 /* Rails Hotline.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +151,7 @@
 /* Begin PBXProject section */
 		9EE48E09130DC7EF005491E1 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Hypnosister" */;
+			buildConfigurationList = 9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Rails Hotline" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -157,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EE48E11130DC7EF005491E1 /* Hypnosister */,
+				9EE48E11130DC7EF005491E1 /* Rails Hotline */,
 			);
 		};
 /* End PBXProject section */
@@ -169,10 +175,12 @@
 			files = (
 				9EE48E21130DC7EF005491E1 /* InfoPlist.strings in Resources */,
 				9EE48E2A130DC7EF005491E1 /* MainWindow.xib in Resources */,
-				13A710E5152E3278005CDFA6 /* railshotline.jpg in Resources */,
-				13A710F5152E3F68005CDFA6 /* railshotlineIphone.jpg in Resources */,
-				13A710F7152E3FF4005CDFA6 /* railshotlineIphone2.jpg in Resources */,
 				1328B9FB152E4EA300AFEE6A /* Default.png in Resources */,
+				1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */,
+				1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */,
+				1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */,
+				1328BA04152F41BE00AFEE6A /* icon.png in Resources */,
+				1328BA05152F41BE00AFEE6A /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +257,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
+				GCC_PREFIX_HEADER = "Hypnosister/Rails Hotline-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/Rails Hotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rails Hotline";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -263,10 +271,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
+				GCC_PREFIX_HEADER = "Hypnosister/Rails Hotline-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/Rails Hotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rails Hotline";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Hypnosister" */ = {
+		9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Rails Hotline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EE48E2B130DC7EF005491E1 /* Debug */,
@@ -284,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Hypnosister" */ = {
+		9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Rails Hotline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EE48E2E130DC7EF005491E1 /* Debug */,
