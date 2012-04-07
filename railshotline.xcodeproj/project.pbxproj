@@ -11,8 +11,8 @@
 		1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FC152E932000AFEE6A /* railshotlinebg.png */; };
 		1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */; };
 		1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA00152F41BE00AFEE6A /* Default@2x.png */; };
-		1328BA04152F41BE00AFEE6A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA01152F41BE00AFEE6A /* icon.png */; };
-		1328BA05152F41BE00AFEE6A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA02152F41BE00AFEE6A /* icon@2x.png */; };
+		1382A73E152FF97300A918EB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1382A73C152FF97300A918EB /* Icon.png */; };
+		1382A73F152FF97300A918EB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1382A73D152FF97300A918EB /* Icon@2x.png */; };
 		9EE48E17130DC7EF005491E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E16130DC7EF005491E1 /* UIKit.framework */; };
 		9EE48E19130DC7EF005491E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E18130DC7EF005491E1 /* Foundation.framework */; };
 		9EE48E1B130DC7EF005491E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */; };
@@ -28,15 +28,15 @@
 		1328B9FC152E932000AFEE6A /* railshotlinebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = railshotlinebg.png; sourceTree = "<group>"; };
 		1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "railshotlinebg@2x.png"; sourceTree = "<group>"; };
 		1328BA00152F41BE00AFEE6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1328BA01152F41BE00AFEE6A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		1328BA02152F41BE00AFEE6A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		9EE48E12130DC7EF005491E1 /* Rails Hotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rails Hotline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1382A73C152FF97300A918EB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Hypnosister/Icon.png; sourceTree = "<group>"; };
+		1382A73D152FF97300A918EB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Hypnosister/Icon@2x.png"; sourceTree = "<group>"; };
+		9EE48E12130DC7EF005491E1 /* railshotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = railshotline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE48E16130DC7EF005491E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EE48E18130DC7EF005491E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9EE48E1E130DC7EF005491E1 /* Rails Hotline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rails Hotline-Info.plist"; sourceTree = "<group>"; };
+		9EE48E1E130DC7EF005491E1 /* railshotline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "railshotline-Info.plist"; sourceTree = "<group>"; };
 		9EE48E20130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9EE48E22130DC7EF005491E1 /* Rails Hotline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rails Hotline-Prefix.pch"; sourceTree = "<group>"; };
+		9EE48E22130DC7EF005491E1 /* railshotline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "railshotline-Prefix.pch"; sourceTree = "<group>"; };
 		9EE48E23130DC7EF005491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
 		9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
@@ -63,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				1328BA00152F41BE00AFEE6A /* Default@2x.png */,
-				1328BA01152F41BE00AFEE6A /* icon.png */,
-				1328BA02152F41BE00AFEE6A /* icon@2x.png */,
 				1328B9FC152E932000AFEE6A /* railshotlinebg.png */,
 				1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */,
 				1328B9FA152E4EA300AFEE6A /* Default.png */,
@@ -76,6 +74,8 @@
 		9EE48E07130DC7EF005491E1 = {
 			isa = PBXGroup;
 			children = (
+				1382A73C152FF97300A918EB /* Icon.png */,
+				1382A73D152FF97300A918EB /* Icon@2x.png */,
 				13A710E3152E3278005CDFA6 /* assets */,
 				9EE48E1C130DC7EF005491E1 /* Pockethotline */,
 				9EE48E15130DC7EF005491E1 /* Frameworks */,
@@ -86,7 +86,7 @@
 		9EE48E13130DC7EF005491E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EE48E12130DC7EF005491E1 /* Rails Hotline.app */,
+				9EE48E12130DC7EF005491E1 /* railshotline.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 		9EE48E1D130DC7EF005491E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EE48E1E130DC7EF005491E1 /* Rails Hotline-Info.plist */,
+				9EE48E1E130DC7EF005491E1 /* railshotline-Info.plist */,
 				9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */,
-				9EE48E22130DC7EF005491E1 /* Rails Hotline-Prefix.pch */,
+				9EE48E22130DC7EF005491E1 /* railshotline-Prefix.pch */,
 				9EE48E23130DC7EF005491E1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EE48E11130DC7EF005491E1 /* Rails Hotline */ = {
+		9EE48E11130DC7EF005491E1 /* railshotline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Rails Hotline" */;
+			buildConfigurationList = 9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "railshotline" */;
 			buildPhases = (
 				9EE48E0E130DC7EF005491E1 /* Sources */,
 				9EE48E0F130DC7EF005491E1 /* Frameworks */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = "Rails Hotline";
+			name = railshotline;
 			productName = Hypnosister;
-			productReference = 9EE48E12130DC7EF005491E1 /* Rails Hotline.app */;
+			productReference = 9EE48E12130DC7EF005491E1 /* railshotline.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,19 +151,29 @@
 /* Begin PBXProject section */
 		9EE48E09130DC7EF005491E1 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Rails Hotline" */;
+			buildConfigurationList = 9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "railshotline" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
+				ar,
+				de,
+				fr,
+				it,
+				ja,
+				ko,
+				"pt-BR",
+				th,
+				"zh-Hans",
 			);
 			mainGroup = 9EE48E07130DC7EF005491E1;
 			productRefGroup = 9EE48E13130DC7EF005491E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EE48E11130DC7EF005491E1 /* Rails Hotline */,
+				9EE48E11130DC7EF005491E1 /* railshotline */,
 			);
 		};
 /* End PBXProject section */
@@ -179,8 +189,8 @@
 				1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */,
 				1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */,
 				1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */,
-				1328BA04152F41BE00AFEE6A /* icon.png in Resources */,
-				1328BA05152F41BE00AFEE6A /* icon@2x.png in Resources */,
+				1382A73E152FF97300A918EB /* Icon.png in Resources */,
+				1382A73F152FF97300A918EB /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +232,11 @@
 		9EE48E2B130DC7EF005491E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -231,6 +245,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -238,14 +254,20 @@
 		9EE48E2C130DC7EF005491E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -255,12 +277,49 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Rails Hotline-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Rails Hotline-Info.plist";
+				GCC_PREFIX_HEADER = "Hypnosister/railshotline-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/railshotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				PRODUCT_NAME = "Rails Hotline";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+				);
+				PRODUCT_NAME = railshotline;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,11 +329,48 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Rails Hotline-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Rails Hotline-Info.plist";
+				GCC_PREFIX_HEADER = "Hypnosister/railshotline-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/railshotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
-				PRODUCT_NAME = "Rails Hotline";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/1-Starter/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/2-FromScreencast/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphoneos2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphoneos3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphonesimulator2.2.1.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/iphonesimulator3.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.0/macosx.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphoneos3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphoneos4.0.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphonesimulator3.2.sdk/usr/local/lib\"",
+					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11/iphonesimulator4.0.sdk/usr/local/lib\"",
+				);
+				PRODUCT_NAME = railshotline;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "Rails Hotline" */ = {
+		9EE48E0C130DC7EF005491E1 /* Build configuration list for PBXProject "railshotline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EE48E2B130DC7EF005491E1 /* Debug */,
@@ -292,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "Rails Hotline" */ = {
+		9EE48E2D130DC7EF005491E1 /* Build configuration list for PBXNativeTarget "railshotline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EE48E2E130DC7EF005491E1 /* Debug */,

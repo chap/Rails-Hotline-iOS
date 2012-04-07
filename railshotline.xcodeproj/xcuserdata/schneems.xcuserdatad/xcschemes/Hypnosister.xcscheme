@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
-               BuildableName = "Hypnosister.app"
-               BlueprintName = "Rails Hotline"
-               ReferencedContainer = "container:Rails Hotline.xcodeproj">
+               BuildableName = "Rails Hotline.app"
+               BlueprintName = "railshotline"
+               ReferencedContainer = "container:railshotline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,9 +32,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Rails Hotline"
-            ReferencedContainer = "container:Rails Hotline.xcodeproj">
+            BuildableName = "Rails Hotline.app"
+            BlueprintName = "railshotline"
+            ReferencedContainer = "container:railshotline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Rails Hotline"
-            ReferencedContainer = "container:Rails Hotline.xcodeproj">
+            BuildableName = "Rails Hotline.app"
+            BlueprintName = "railshotline"
+            ReferencedContainer = "container:railshotline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE48E11130DC7EF005491E1"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Rails Hotline"
-            ReferencedContainer = "container:Rails Hotline.xcodeproj">
+            BuildableName = "Rails Hotline.app"
+            BlueprintName = "railshotline"
+            ReferencedContainer = "container:railshotline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
