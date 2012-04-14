@@ -7,42 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1328B9FB152E4EA300AFEE6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FA152E4EA300AFEE6A /* Default.png */; };
-		1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FC152E932000AFEE6A /* railshotlinebg.png */; };
-		1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */; };
-		1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1328BA00152F41BE00AFEE6A /* Default@2x.png */; };
-		1382A73E152FF97300A918EB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1382A73C152FF97300A918EB /* Icon.png */; };
-		1382A73F152FF97300A918EB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1382A73D152FF97300A918EB /* Icon@2x.png */; };
+		138F08551538F8C900424267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138F08321538F8C900424267 /* InfoPlist.strings */; };
+		138F08561538F8C900424267 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138F08341538F8C900424267 /* MainWindow.xib */; };
+		138F08701538F91E00424267 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F085C1538F91E00424267 /* Default.png */; };
+		138F08711538F91E00424267 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F085D1538F91E00424267 /* Default@2x.png */; };
+		138F08721538F91E00424267 /* iconBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F085E1538F91E00424267 /* iconBig.png */; };
+		138F08731538F91E00424267 /* railshotlinebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F085F1538F91E00424267 /* railshotlinebg.png */; };
+		138F08741538F91E00424267 /* railshotlinebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F08601538F91E00424267 /* railshotlinebg@2x.png */; };
+		138F08751538F91E00424267 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F08611538F91E00424267 /* screenshot.png */; };
+		138F08761538F91E00424267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138F08621538F91E00424267 /* InfoPlist.strings */; };
+		138F08771538F91E00424267 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138F08641538F91E00424267 /* MainWindow.xib */; };
+		138F08781538F91E00424267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F08661538F91E00424267 /* main.m */; };
+		138F08791538F91E00424267 /* PockethotlineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F08681538F91E00424267 /* PockethotlineAppDelegate.m */; };
+		138F087A1538F91E00424267 /* PockethotlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F086A1538F91E00424267 /* PockethotlineView.m */; };
+		138F087B1538F91E00424267 /* railshotline-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 138F086B1538F91E00424267 /* railshotline-Info.plist */; };
+		138F087C1538F91E00424267 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 138F086D1538F91E00424267 /* readme.md */; };
+		138F087D1538F91E00424267 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F086E1538F91E00424267 /* Icon.png */; };
+		138F087E1538F91E00424267 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138F086F1538F91E00424267 /* Icon@2x.png */; };
 		9EE48E17130DC7EF005491E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E16130DC7EF005491E1 /* UIKit.framework */; };
 		9EE48E19130DC7EF005491E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E18130DC7EF005491E1 /* Foundation.framework */; };
 		9EE48E1B130DC7EF005491E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */; };
-		9EE48E21130DC7EF005491E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */; };
-		9EE48E24130DC7EF005491E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E23130DC7EF005491E1 /* main.m */; };
-		9EE48E27130DC7EF005491E1 /* PockethotlineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */; };
-		9EE48E2A130DC7EF005491E1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE48E28130DC7EF005491E1 /* MainWindow.xib */; };
-		9EE48E32130DC900005491E1 /* PockethotlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E31130DC900005491E1 /* PockethotlineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1328B9FA152E4EA300AFEE6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1328B9FC152E932000AFEE6A /* railshotlinebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = railshotlinebg.png; sourceTree = "<group>"; };
-		1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "railshotlinebg@2x.png"; sourceTree = "<group>"; };
-		1328BA00152F41BE00AFEE6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1382A73C152FF97300A918EB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Hypnosister/Icon.png; sourceTree = "<group>"; };
-		1382A73D152FF97300A918EB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Hypnosister/Icon@2x.png"; sourceTree = "<group>"; };
+		138F08331538F8C900424267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		138F08351538F8C900424267 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
+		138F085C1538F91E00424267 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		138F085D1538F91E00424267 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		138F085E1538F91E00424267 /* iconBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBig.png; sourceTree = "<group>"; };
+		138F085F1538F91E00424267 /* railshotlinebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = railshotlinebg.png; sourceTree = "<group>"; };
+		138F08601538F91E00424267 /* railshotlinebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "railshotlinebg@2x.png"; sourceTree = "<group>"; };
+		138F08611538F91E00424267 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		138F08631538F91E00424267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		138F08651538F91E00424267 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		138F08661538F91E00424267 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		138F08671538F91E00424267 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
+		138F08681538F91E00424267 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
+		138F08691538F91E00424267 /* PockethotlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PockethotlineView.h; sourceTree = "<group>"; };
+		138F086A1538F91E00424267 /* PockethotlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PockethotlineView.m; sourceTree = "<group>"; };
+		138F086B1538F91E00424267 /* railshotline-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "railshotline-Info.plist"; path = "railshotline/railshotline-Info.plist"; sourceTree = "<group>"; };
+		138F086C1538F91E00424267 /* railshotline-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "railshotline-Prefix.pch"; path = "railshotline/railshotline-Prefix.pch"; sourceTree = "<group>"; };
+		138F086D1538F91E00424267 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		138F086E1538F91E00424267 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		138F086F1538F91E00424267 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		9EE48E12130DC7EF005491E1 /* railshotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = railshotline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE48E16130DC7EF005491E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EE48E18130DC7EF005491E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EE48E1A130DC7EF005491E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9EE48E1E130DC7EF005491E1 /* railshotline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "railshotline-Info.plist"; sourceTree = "<group>"; };
-		9EE48E20130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9EE48E22130DC7EF005491E1 /* railshotline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "railshotline-Prefix.pch"; sourceTree = "<group>"; };
-		9EE48E23130DC7EF005491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PockethotlineAppDelegate.h; sourceTree = "<group>"; };
-		9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockethotlineAppDelegate.m; sourceTree = "<group>"; };
-		9EE48E29130DC7EF005491E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9EE48E30130DC900005491E1 /* PockethotlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PockethotlineView.h; sourceTree = "<group>"; };
-		9EE48E31130DC900005491E1 /* PockethotlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PockethotlineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,25 +70,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13A710E3152E3278005CDFA6 /* assets */ = {
+		138F08311538F8C900424267 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1328BA00152F41BE00AFEE6A /* Default@2x.png */,
-				1328B9FC152E932000AFEE6A /* railshotlinebg.png */,
-				1328B9FD152E932000AFEE6A /* railshotlinebg@2x.png */,
-				1328B9FA152E4EA300AFEE6A /* Default.png */,
+				138F08321538F8C900424267 /* InfoPlist.strings */,
+				138F08341538F8C900424267 /* MainWindow.xib */,
+			);
+			name = en.lproj;
+			path = railshotline/en.lproj;
+			sourceTree = "<group>";
+		};
+		138F085A1538F91E00424267 /* railshotline */ = {
+			isa = PBXGroup;
+			children = (
+				138F08641538F91E00424267 /* MainWindow.xib */,
+				138F08661538F91E00424267 /* main.m */,
+				138F08671538F91E00424267 /* PockethotlineAppDelegate.h */,
+				138F08681538F91E00424267 /* PockethotlineAppDelegate.m */,
+				138F08691538F91E00424267 /* PockethotlineView.h */,
+				138F086A1538F91E00424267 /* PockethotlineView.m */,
+			);
+			path = railshotline;
+			sourceTree = "<group>";
+		};
+		138F085B1538F91E00424267 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				138F085C1538F91E00424267 /* Default.png */,
+				138F085D1538F91E00424267 /* Default@2x.png */,
+				138F085E1538F91E00424267 /* iconBig.png */,
+				138F085F1538F91E00424267 /* railshotlinebg.png */,
+				138F08601538F91E00424267 /* railshotlinebg@2x.png */,
+				138F08611538F91E00424267 /* screenshot.png */,
 			);
 			name = assets;
-			path = Hypnosister/assets;
+			path = railshotline/assets;
 			sourceTree = "<group>";
 		};
 		9EE48E07130DC7EF005491E1 = {
 			isa = PBXGroup;
 			children = (
-				1382A73C152FF97300A918EB /* Icon.png */,
-				1382A73D152FF97300A918EB /* Icon@2x.png */,
-				13A710E3152E3278005CDFA6 /* assets */,
-				9EE48E1C130DC7EF005491E1 /* Pockethotline */,
+				138F08621538F91E00424267 /* InfoPlist.strings */,
+				138F086B1538F91E00424267 /* railshotline-Info.plist */,
+				138F086C1538F91E00424267 /* railshotline-Prefix.pch */,
+				138F085B1538F91E00424267 /* assets */,
+				138F085A1538F91E00424267 /* railshotline */,
+				138F086D1538F91E00424267 /* readme.md */,
+				138F086E1538F91E00424267 /* Icon.png */,
+				138F086F1538F91E00424267 /* Icon@2x.png */,
+				138F08311538F8C900424267 /* en.lproj */,
 				9EE48E15130DC7EF005491E1 /* Frameworks */,
 				9EE48E13130DC7EF005491E1 /* Products */,
 			);
@@ -101,31 +142,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9EE48E1C130DC7EF005491E1 /* Pockethotline */ = {
-			isa = PBXGroup;
-			children = (
-				9EE48E25130DC7EF005491E1 /* PockethotlineAppDelegate.h */,
-				9EE48E26130DC7EF005491E1 /* PockethotlineAppDelegate.m */,
-				9EE48E30130DC900005491E1 /* PockethotlineView.h */,
-				9EE48E31130DC900005491E1 /* PockethotlineView.m */,
-				9EE48E28130DC7EF005491E1 /* MainWindow.xib */,
-				9EE48E1D130DC7EF005491E1 /* Supporting Files */,
-			);
-			name = Pockethotline;
-			path = Hypnosister;
-			sourceTree = "<group>";
-		};
-		9EE48E1D130DC7EF005491E1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9EE48E1E130DC7EF005491E1 /* railshotline-Info.plist */,
-				9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */,
-				9EE48E22130DC7EF005491E1 /* railshotline-Prefix.pch */,
-				9EE48E23130DC7EF005491E1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +158,7 @@
 			dependencies = (
 			);
 			name = railshotline;
-			productName = Hypnosister;
+			productName = railshotline;
 			productReference = 9EE48E12130DC7EF005491E1 /* railshotline.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -183,14 +199,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE48E21130DC7EF005491E1 /* InfoPlist.strings in Resources */,
-				9EE48E2A130DC7EF005491E1 /* MainWindow.xib in Resources */,
-				1328B9FB152E4EA300AFEE6A /* Default.png in Resources */,
-				1328B9FE152E932000AFEE6A /* railshotlinebg.png in Resources */,
-				1328B9FF152E932000AFEE6A /* railshotlinebg@2x.png in Resources */,
-				1328BA03152F41BE00AFEE6A /* Default@2x.png in Resources */,
-				1382A73E152FF97300A918EB /* Icon.png in Resources */,
-				1382A73F152FF97300A918EB /* Icon@2x.png in Resources */,
+				138F08551538F8C900424267 /* InfoPlist.strings in Resources */,
+				138F08561538F8C900424267 /* MainWindow.xib in Resources */,
+				138F08701538F91E00424267 /* Default.png in Resources */,
+				138F08711538F91E00424267 /* Default@2x.png in Resources */,
+				138F08721538F91E00424267 /* iconBig.png in Resources */,
+				138F08731538F91E00424267 /* railshotlinebg.png in Resources */,
+				138F08741538F91E00424267 /* railshotlinebg@2x.png in Resources */,
+				138F08751538F91E00424267 /* screenshot.png in Resources */,
+				138F08761538F91E00424267 /* InfoPlist.strings in Resources */,
+				138F08771538F91E00424267 /* MainWindow.xib in Resources */,
+				138F087B1538F91E00424267 /* railshotline-Info.plist in Resources */,
+				138F087C1538F91E00424267 /* readme.md in Resources */,
+				138F087D1538F91E00424267 /* Icon.png in Resources */,
+				138F087E1538F91E00424267 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,27 +223,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE48E24130DC7EF005491E1 /* main.m in Sources */,
-				9EE48E27130DC7EF005491E1 /* PockethotlineAppDelegate.m in Sources */,
-				9EE48E32130DC900005491E1 /* PockethotlineView.m in Sources */,
+				138F08781538F91E00424267 /* main.m in Sources */,
+				138F08791538F91E00424267 /* PockethotlineAppDelegate.m in Sources */,
+				138F087A1538F91E00424267 /* PockethotlineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9EE48E1F130DC7EF005491E1 /* InfoPlist.strings */ = {
+		138F08321538F8C900424267 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EE48E20130DC7EF005491E1 /* en */,
+				138F08331538F8C900424267 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9EE48E28130DC7EF005491E1 /* MainWindow.xib */ = {
+		138F08341538F8C900424267 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EE48E29130DC7EF005491E1 /* en */,
+				138F08351538F8C900424267 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		138F08621538F91E00424267 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138F08631538F91E00424267 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = railshotline;
+			sourceTree = "<group>";
+		};
+		138F08641538F91E00424267 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138F08651538F91E00424267 /* en */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -285,8 +324,8 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/railshotline-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/railshotline-Info.plist";
+				GCC_PREFIX_HEADER = "railshotline/railshotline-Prefix.pch";
+				INFOPLIST_FILE = "railshotline/railshotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
@@ -336,8 +375,8 @@
 					"\"$(SRCROOT)/../peepcode-iphone-view-controllers-code/3-Enhanced/SDKs/httpriot-0.6.11\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/railshotline-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/railshotline-Info.plist";
+				GCC_PREFIX_HEADER = "railshotline/railshotline-Prefix.pch";
+				INFOPLIST_FILE = "railshotline/railshotline-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
